@@ -1,250 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WsCube Tech - Digital Marketing Course</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .hero {
-      background: linear-gradient(90deg, #2f42aa, #4d39ac);
-      color: white;
-      padding: 80px 0;
-    }
-    .hero ul li i {
-      color: #ffd700;
-    }
-    .section-title {
-      font-size: 2rem;
-      font-weight: 700;
-      color: #2f42aa;
-    }
-    .highlight-box, .choose-box {
-      background: #f4f7ff;
-      border-radius: 12px;
-      padding: 25px;
-      transition: all 0.3s ease-in-out;
-    }
-    .highlight-box:hover {
-      transform: translateY(-5px);
-    }
-    .trainer-img {
-      max-width: 100%;
-      border-radius: 12px;
-    }
-    .faq-button {
-      background: #2f42aa;
-      color: white;
-    }
-    .footer {
-      background: #1a1a1a;
-      color: white;
-      padding: 40px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WsCube Tech - Digital Marketing Course</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+        .highlight-card {
+            border: none;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+        }
+        .form-control {
+            margin-bottom: 15px;
+        }
+        .btn-register {
+            background-color: #0d6efd;
+            color: white;
+            width: 100%;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .certificate {
+            border: 2px solid #000;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .section-divider {
+            border-top: 1px solid #dee2e6;
+            margin: 40px 0;
+        }
+    </style>
 </head>
 <body>
+    <!-- Career Opportunities Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="mb-4">Career Opportunities in Digital Marketing</h1>
+                    <p class="lead">Digital marketing course so good, you only pay-after-placement</p>
+                    <ul class="list-unstyled mb-4">
+                        <li>● Specialization: Performance Marketing</li>
+                        <li>● Min salary of Rs 4.5 LPA</li>
+                        <li>● 50 seats only</li>
+                    </ul>
+                    
+                    <h4 class="mb-3">Book Your Free Class Now!</h4>
+                    <p>2 days of free demo classes without paying in advance!</p>
+                    
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobile" class="form-label">Mobile Number</label>
+                            <div class="input-group">
+                                <span class="input-group-text">+91 ▼</span>
+                                <input type="tel" class="form-control" id="mobile" placeholder="Enter your mobile number">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-register">Register Now</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                        <button class="btn btn-primary mb-3">Book 2 Days Demo</button>
+                        <button class="btn btn-outline-primary">Download Curriculum</button>
+                        
+                        <div class="row mt-5 text-center">
+                            <div class="col-4 stat-item">
+                                <h3>1000+</h3>
+                                <p>Students Trained</p>
+                            </div>
+                            <div class="col-4 stat-item">
+                                <h3>₹4.5 LPA</h3>
+                                <p>Min Salary</p>
+                            </div>
+                            <div class="col-4 stat-item">
+                                <h3>320+</h3>
+                                <p>Recruiting Partners</p>
+                            </div>
+                            <div class="col-6 stat-item">
+                                <h3>10:00 am</h3>
+                                <p>Program Timings</p>
+                            </div>
+                            <div class="col-6 stat-item">
+                                <h3>11th May</h3>
+                                <p>Next Batch Starts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-  <div class="container">
-    <a class="navbar-brand fw-bold fs-3" href="#">WsCube Tech</a>
-  </div>
-</nav>
+    <!-- Key Highlights Section -->
+    <section class="container my-5">
+        <h1 class="text-center mb-5">Key Highlights of the Course</h1>
+        <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+        
+        <div class="section-divider"></div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="highlight-card">
+                    <h4>Assignments & Modules tests</h4>
+                    <p>Test your knowledge</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="highlight-card">
+                    <h4>Industry-recognized Certification</h4>
+                    <p>Stand out to your professional</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="highlight-card">
+                    <h4>Live Classes & Recorded Lectures</h4>
+                    <p>Best of both worlds of learning</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="highlight-card">
+                    <h4>Downloadable Content</h4>
+                    <p>With lifetime access</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="highlight-card">
+                    <h4>6 Industry Level Projects</h4>
+                    <p>Get practical skills</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="highlight-card">
+                    <h4>4 Live Doubt Clearing Session</h4>
+                    <p>Gain a clear understanding</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <button class="btn btn-primary">Book Free Class</button>
+        </div>
+    </section>
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h1>Digital Marketing Course in Hindi</h1>
-        <p class="mt-3">Become a certified digital marketer with practical training & live projects.</p>
-        <ul class="list-unstyled mt-3">
-          <li><i class="bi bi-check-circle-fill me-2"></i> 100% Practical Training</li>
-          <li><i class="bi bi-check-circle-fill me-2"></i> Work on Live Projects</li>
-          <li><i class="bi bi-check-circle-fill me-2"></i> 15+ Certifications</li>
-        </ul>
-        <a href="#" class="btn btn-light mt-4 text-primary fw-bold">Join Now</a>
-      </div>
-      <div class="col-md-6 text-center">
-        <img src="https://i.ibb.co/tLwPgkm/hero-dm.png" alt="Hero" class="img-fluid">
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Career Options Section -->
+    <section class="container my-5">
+        <h1 class="text-center mb-5">Top career options in Digital Marketing</h1>
+        <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur imperdiet tellus ut ornare pharetra.</p>
+        
+        <div class="section-divider"></div>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h3 class="mb-3">Content Marketer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h3 class="mb-3">SEO Specialist</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h3 class="mb-3">Social Media Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h3 class="mb-3">Marketing Analyst</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
+        </div>
+    </section>
 
-<!-- Why Learn Digital Marketing -->
-<section class="py-5">
-  <div class="container">
-    <h2 class="text-center section-title mb-5">Why Learn Digital Marketing?</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="highlight-box text-center h-100">
-          <img src="https://i.ibb.co/HgSLJNt/icon1.png" class="mb-3" width="60" />
-          <h5>High Demand</h5>
-          <p>Companies seek skilled digital marketers to promote brands online.</p>
+    <!-- Get Certified Section -->
+    <section class="container my-5">
+        <h1 class="text-center mb-5">Get Certified</h1>
+        <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+        
+        <div class="section-divider"></div>
+        
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <h4 class="mb-3">Official And Verified</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
+            <div class="col-md-4">
+                <h4 class="mb-3">Easily Shareable</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
+            <div class="col-md-4">
+                <h4 class="mb-3">Career Shifting</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Imperdiet tellus ut ornare pharetra leo vestibulum at orci.</p>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="highlight-box text-center h-100">
-          <img src="https://i.ibb.co/XskR95z/icon2.png" class="mb-3" width="60" />
-          <h5>Lucrative Career</h5>
-          <p>Earn great packages in India and abroad.</p>
+        
+        <div class="certificate my-5">
+            <div class="text-center mb-4">
+                <h5>WECUBE_TECH</h5>
+                <p>CONFIDENCIAL REGISTRATION NO</p>
+            </div>
+            
+            <h3 class="text-center mb-4">CERTIFICATE OF COMPLETION</h3>
+            <h4 class="text-center mb-4">THIS IS TO CERTIFY</h4>
+            
+            <h2 class="text-center mb-4">Your Name</h2>
+            <p class="text-center mb-4">Has Successfully Completed</p>
+            <p class="text-center mb-4">"<em>MONTHS</em>" of "<em>YOUR COURSE</em>"</p>
+            
+            <p class="text-center mb-4">from ______ to ______</p>
+            
+            <p class="text-center mb-4">We found him/her pretty active and confident in assigned projects.</p>
+            
+            <div class="row mt-5">
+                <div class="col-4">
+                    <p><strong>DATE</strong></p>
+                </div>
+                <div class="col-4 text-center">
+                    <p>A+</p>
+                </div>
+                <div class="col-4 text-end">
+                    <p><strong>Kualagua Bhatia</strong></p>
+                    <p>Founder</p>
+                    <p>Wecube Tech</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p>Verify your certificate</p>
+                <p>www.verification.bhatia/verify-questions</p>
+                <p>Date: 7 June 2015, 15:00 PM, 8 May 2015, 9 May 2016</p>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="highlight-box text-center h-100">
-          <img src="https://i.ibb.co/3zWTr3f/icon3.png" class="mb-3" width="60" />
-          <h5>Freelance & Business</h5>
-          <p>Start your business or work as a freelancer with your skills.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Highlights Section -->
-<section class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center section-title mb-5">Key Highlights</h2>
-    <div class="row g-4">
-      <div class="col-md-3">
-        <div class="highlight-box text-center h-100">
-          <i class="bi bi-laptop fs-1 text-primary mb-2"></i>
-          <h6>Live Classes</h6>
+    <!-- Curriculum Section -->
+    <section class="container my-5">
+        <h1 class="text-center mb-5">Curriculum of Our Digital Marketing</h1>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h4>What is Digital Marketing?</h4>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Requirement of Digital Marketing</h4>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Digital Marketing for Working Professionals</h4>
+            </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="highlight-box text-center h-100">
-          <i class="bi bi-card-checklist fs-1 text-primary mb-2"></i>
-          <h6>15+ Certificates</h6>
+        
+        <div class="text-center">
+            <button class="btn btn-primary">Download Curriculum</button>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="highlight-box text-center h-100">
-          <i class="bi bi-tools fs-1 text-primary mb-2"></i>
-          <h6>100% Practical</h6>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="highlight-box text-center h-100">
-          <i class="bi bi-clock-history fs-1 text-primary mb-2"></i>
-          <h6>Doubt Sessions</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Why Choose WsCube Tech -->
-<section class="py-5">
-  <div class="container">
-    <h2 class="text-center section-title mb-5">Why Choose WsCube Tech?</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="choose-box text-center h-100">
-          <h5>10+ Years Experience</h5>
-          <p>Experienced trainers with deep industry knowledge.</p>
+    <!-- Features Section -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h4>Learn From Industry Experts</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Work on Real Projects</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Structured & Latest Curriculum</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>100% Job Assistance</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Highly-Engaging Live Classes</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h4>Get Certification</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Vitae suspendisse pellentesque amet porttitor facilisis dignissim felis.</p>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="choose-box text-center h-100">
-          <h5>Placement Assistance</h5>
-          <p>We assist in building your career and resume.</p>
+        
+        <div class="text-center">
+            <button class="btn btn-primary">Book Free Class</button>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="choose-box text-center h-100">
-          <h5>Affordable Fees</h5>
-          <p>Top-quality training at pocket-friendly fees.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Trainer Section -->
-<section class="py-5 bg-light">
-  <div class="container">
-    <div class="row align-items-center g-4">
-      <div class="col-md-6">
-        <img src="https://i.ibb.co/w6Mp6MG/trainer.png" class="trainer-img" alt="Trainer" />
-      </div>
-      <div class="col-md-6">
-        <h2 class="section-title">Meet Your Mentor</h2>
-        <p class="mt-3">An experienced industry professional guiding you throughout the training with real-time projects, case studies, and certifications.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Testimonials -->
-<section class="py-5">
-  <div class="container">
-    <h2 class="text-center section-title mb-5">What Our Students Say</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="highlight-box">
-          <p>"Great experience learning from WsCube Tech. The practical approach and support helped me land my first job!"</p>
-          <strong>- Anjali Sharma</strong>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="highlight-box">
-          <p>"The course was very affordable and provided everything from SEO to social media training in-depth."</p>
-          <strong>- Ravi Verma</strong>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="highlight-box">
-          <p>"Trainers were supportive and always helped with doubts. Loved the live project experience!"</p>
-          <strong>- Pooja Sinha</strong>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center section-title mb-4">Frequently Asked Questions</h2>
-    <div class="accordion" id="faqAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="faqOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-            What is the duration of the course?
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">The course lasts for 3 months with live sessions and project-based learning.</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="faqTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-            Do I get a certificate?
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-          <div class="accordion-body">Yes, you'll receive 15+ certificates including a completion certificate from WsCube Tech.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer text-center">
-  <div class="container">
-    <p>&copy; 2025 WsCube Tech. All rights reserved.</p>
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
